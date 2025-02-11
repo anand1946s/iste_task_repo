@@ -1,0 +1,77 @@
+h1{
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+header{
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    padding: 20px;
+    color: grey;
+    font-family:'Papyrus',cursive;
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    border-radius: 60px;
+    padding: 10px;
+    margin: 0px;
+    
+}
+.navbar ul{
+    background-color:#aeba5f;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    border-radius: 30px;
+}
+.navbar a{
+    color: #3A2718;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
+.navbar a:hover{
+    background-color:#472e12;
+    color: #FFEECC;
+    
+}
+.navbar li{
+    float: left;
+}
+body{
+    background-image: url("home bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+       justify-content: center;
+    align-items: center;
+
+}
+.centre-text{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transform: translate(-50%,-50%);
+}
+.centre-text:hover{
+    color: #aeba5f;
+    transition: background_color 1s ease;
+}
